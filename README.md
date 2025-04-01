@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+NX Memory Game
+A modern, visually striking memory card matching game with neon aesthetics.
+Show Image
+🎮 Features
 
-## Getting Started
+Sleek Neon Design: Vibrant colors and glowing effects with a futuristic aesthetic
+Multiple Difficulty Levels: Choose from Easy, Medium, and Hard modes
+Score Tracking: Records your best times and move counts for each difficulty
+Responsive Design: Playable on desktop and mobile devices
+Accessibility Features: Keyboard navigation and screen reader support
 
-First, run the development server:
+🚀 Demo
+![image](https://github.com/user-attachments/assets/224e3c43-d236-447a-a512-d3efd69ea9b1)
 
-```bash
-npm run dev
+🛠️ Built With
+
+React - Frontend library
+Next.js - React framework
+TypeScript - Type-safe JavaScript
+Tailwind CSS - Utility-first CSS framework
+Lucide Icons - Icon set
+
+📋 Game Instructions
+
+Click any card to flip it and reveal an animal icon
+Find matching pairs by flipping another card with the same animal
+When cards match, they stay face up; if not, they flip back over
+Complete the game by finding all matching pairs
+Try to finish with as few moves as possible to achieve a high score!
+
+🎲 Difficulty Levels
+
+Easy: 6 cards (3 pairs)
+Medium: 16 cards (8 pairs)
+Hard: 20 cards (10 pairs)
+
+🏆 Score System
+The game tracks:
+
+Number of moves taken
+Time to complete the game
+Both metrics are used to determine your high score
+
+🖥️ Local Development
+Prerequisites
+
+Node.js (v14 or higher)
+npm or yarn
+
+Installation
+
+Clone the repository:
+bashCopygit clone https://github.com/yourusername/nx-memory-game.git
+cd nx-memory-game
+
+Install dependencies:
+bashCopynpm install
+# or
+yarn install
+
+Start the development server:
+bashCopynpm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📱 Deployment
+This project can be easily deployed to Vercel:
+Show Image
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+🙏 Acknowledgements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Design inspiration from modern neon/cyberpunk aesthetics
+Sound effects from Freesound
+Special thanks to all contributors
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by Aiyoub
